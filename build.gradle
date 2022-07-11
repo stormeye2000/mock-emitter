@@ -51,7 +51,7 @@ publishing {
 		}
 		maven {
 			name = "GitHubPackages"
-			url = "https://maven.pkg.github.com/syntifi/casper-sdk"
+			url = "https://maven.pkg.github.com/casper-network/casper-java-sdk"
 			credentials {
 				username = System.getenv("GITHUB_ACTOR")
 				password = System.getenv("GITHUB_TOKEN")
