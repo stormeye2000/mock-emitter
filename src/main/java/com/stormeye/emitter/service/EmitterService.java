@@ -5,7 +5,9 @@ import com.stormeye.emitter.domain.Topics;
 
 import java.util.Random;
 import java.util.UUID;
-
+/**
+ * TEST JAVADOC
+ */
 @Service
 public class EmitterService {
 

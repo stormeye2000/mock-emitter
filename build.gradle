@@ -26,7 +26,7 @@ dependencies {
 }
 
 java {
-//	withJavadocJar()
+	withJavadocJar()
 	withSourcesJar()
 }
 
@@ -36,6 +36,16 @@ javadoc {
 	}
 }
 
+
+////!!!!!!!!!!!!!!!!NOTES
+////  MAVEN_USERNAME = sonatype jira username
+////  MAVEN_PASSWORD = sonatype jira password
+////  GPG_SIGNING_KEY = cli armoured gpg key
+////  GPG_SIGNING_KEY_PASSWORD = cli gpg key passphrase
+////  gpg --gen-key (with passphrase)
+////  gpg --keyserver keyserver.ubuntu.com --send-keys 3310F7C4856ABE3856B2100C1AE0C82DAD2730A9
+////  gpg --armor --export-secret-keys carl@stormeye.co.uk
+///!!!!!!!!!!!!!!!!!!
 
 publishing {
 	repositories {
@@ -113,6 +123,5 @@ publishing {
 		useInMemoryPgpKeys(signingKey, signingKeyPassword)
 		sign publishing.publications.mavenJava
 	}
-
 
 }

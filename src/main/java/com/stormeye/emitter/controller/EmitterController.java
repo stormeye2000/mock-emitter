@@ -10,6 +10,9 @@ import com.stormeye.emitter.service.EmitterService;
 import java.time.Duration;
 import reactor.core.publisher.Flux;
 
+/**
+ * TEST JAVADOC
+ */
 @RestController
 @RequestMapping("/test-emitter/events")
 public class EmitterController {

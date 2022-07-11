@@ -2,6 +2,9 @@ package com.stormeye.emitter.domain;
 
 import org.apache.commons.text.CaseUtils;
 
+/**
+ * TEST JAVADOC
+ */
 public enum Topics {
 
     DEPLOY_PROCESSED, DEPLOY_EXPIRED, BLOCK_ADDED, DEPLOY_ACCEPTED, FINALITY_SIGNATURE, STEP, FAULT;
