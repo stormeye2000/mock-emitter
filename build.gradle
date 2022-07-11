@@ -76,7 +76,7 @@ publishing {
 			pom {
 				name = 'Mock Emitter'
 				packaging = 'jar'
-				description = ''
+				description = 'test description'
 				url = 'https://github.com/stormeye2000/mock-emitter'
 
 				scm {
