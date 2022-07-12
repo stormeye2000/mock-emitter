@@ -7,7 +7,7 @@ plugins {
 }
 
 group = 'io.github.stormeye2000'
-version = '0.0.4'
+version = '0.0.5'
 sourceCompatibility = '17'
 
 repositories {
