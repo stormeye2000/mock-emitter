@@ -6,7 +6,7 @@ plugins {
 	id 'maven-publish'
 }
 
-group = 'io.github.stormeye2000'
+group = 'io.github.github'
 version = '0.0.1'
 sourceCompatibility = '17'
 
@@ -44,7 +44,7 @@ javadoc {
 ////  GPG_SIGNING_KEY_PASSWORD = cli gpg key passphrase
 ////  gpg --gen-key (with passphrase)
 ////  gpg --keyserver keyserver.ubuntu.com --send-keys 3310F7C4856ABE3856B2100C1AE0C82DAD2730A9
-////  gpg --armor --export-secret-keys carl@stormeye.co.uk
+////  gpg --armor --export-secret-keys carl@stormeye2000.co.uk
 ///!!!!!!!!!!!!!!!!!!
 
 publishing {
@@ -61,7 +61,7 @@ publishing {
 		}
 		maven {
 			name = "GitHubPackages"
-			url = "https://maven.pkg.github.com/stormeye2000/mock-emitter"
+			url = "https://maven.pkg.github.com/github/mock-emitter"
 			credentials {
 				username = System.getenv("GITHUB_ACTOR")
 				password = System.getenv("GITHUB_TOKEN")
@@ -77,22 +77,22 @@ publishing {
 				name = 'Mock Emitter'
 				packaging = 'jar'
 				description = 'test description'
-				url = 'https://github.com/stormeye2000/mock-emitter'
+				url = 'https://github.com/github/mock-emitter'
 
 				scm {
-					connection = 'scm:git:https://github.com/stormeye2000/mock-emitter.git'
-					developerConnection = 'git@github.com:stormeye2000/mock-emitter.git'
-					url = 'https://github.com/stormeye2000/mock-emitter'
+					connection = 'scm:git:https://github.com/github/mock-emitter.git'
+					developerConnection = 'git@github.com:github/mock-emitter.git'
+					url = 'https://github.com/github/mock-emitter'
 				}
 
 				issueManagement {
 					system = 'GitHub'
-					url = 'https://github.com/stormeye2000/mock-emitter/issues'
+					url = 'https://github.com/github/mock-emitter/issues'
 				}
 
 				ciManagement {
 					system = 'Github Actions'
-					url = 'https://github.com//stormeye2000/mock-emitter/actions'
+					url = 'https://github.com//github/mock-emitter/actions'
 				}
 
 				licenses {
@@ -104,9 +104,9 @@ publishing {
 
 				developers {
 					developer {
-						id = 'stormeye'
+						id = 'stormeye2000'
 						name = 'Carl Norburn'
-						email = 'carl@stormeye.co.uk'
+						email = 'carl@stormeye2000.co.uk'
 					}
 				}
 			}

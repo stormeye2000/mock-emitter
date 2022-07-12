@@ -1,11 +1,11 @@
-package com.stormeye.emitter.controller;
+package io.github.stormeye2000.emitter.controller;
 
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.stormeye.emitter.domain.Topics;
-import com.stormeye.emitter.service.EmitterService;
+import io.github.stormeye2000.emitter.domain.Topics;
+import io.github.stormeye2000.emitter.service.EmitterService;
 
 import java.time.Duration;
 import reactor.core.publisher.Flux;

@@ -1,7 +1,7 @@
-package com.stormeye.emitter.service;
+package io.github.stormeye2000.emitter.service;
 
 import org.springframework.stereotype.Service;
-import com.stormeye.emitter.domain.Topics;
+import io.github.stormeye2000.emitter.domain.Topics;
 
 import java.util.Random;
 import java.util.UUID;

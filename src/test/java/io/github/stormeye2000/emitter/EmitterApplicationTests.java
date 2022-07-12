@@ -1,4 +1,4 @@
-package com.stormeye.emitter;
+package io.github.stormeye2000.emitter;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

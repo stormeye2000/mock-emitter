@@ -1,4 +1,4 @@
-package com.stormeye.emitter.domain;
+package io.github.stormeye2000.emitter.domain;
 
 import org.apache.commons.text.CaseUtils;
 
