@@ -7,7 +7,7 @@ plugins {
 }
 
 group = 'io.github.stormeye2000'
-version = '0.0.7'
+version = '0.0.8'
 sourceCompatibility = '17'
 
 repositories {
@@ -114,6 +114,9 @@ publishing {
 	}
 
 
+	jar{
+		archiveClassifier=''
+	}
 
 	// Reference at https://docs.gradle.org/current/userguide/signing_plugin.html#sec:in-memory-keys
 	signing {
