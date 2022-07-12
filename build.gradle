@@ -59,14 +59,14 @@ publishing {
 				password = System.getenv('MAVEN_PASSWORD')
 			}
 		}
-//		maven {
-//			name = "GitHubPackages"
-//			url = "https://maven.pkg.github.com/stormeye2000/mock-emitter"
-//			credentials {
-//				username = System.getenv("GITHUB_ACTOR")
-//				password = System.getenv("GITHUB_TOKEN")
-//			}
-//		}
+		maven {
+			name = "GitHubPackages"
+			url = "https://maven.pkg.github.com/stormeye2000/mock-emitter"
+			credentials {
+				username = System.getenv("GITHUB_ACTOR")
+				password = System.getenv("GITHUB_TOKEN")
+			}
+		}
 	}
 
 	publications {
@@ -106,7 +106,7 @@ publishing {
 					developer {
 						id = 'stormeye2000'
 						name = 'Carl Norburn'
-						email = 'carl@stormeye2000.co.uk'
+						email = 'carl@stormeye.co.uk'
 					}
 				}
 			}
