@@ -6,7 +6,7 @@ plugins {
 	id 'maven-publish'
 }
 
-group = 'io.github.github'
+group = 'io.github.stormeye2000'
 version = '0.0.1'
 sourceCompatibility = '17'
 
