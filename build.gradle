@@ -77,22 +77,22 @@ publishing {
 				name = 'Mock Emitter'
 				packaging = 'jar'
 				description = 'test description'
-				url = 'https://github.com/github/mock-emitter'
+				url = 'https://github.com/stormeye2000/mock-emitter'
 
 				scm {
-					connection = 'scm:git:https://github.com/github/mock-emitter.git'
-					developerConnection = 'git@github.com:github/mock-emitter.git'
-					url = 'https://github.com/github/mock-emitter'
+					connection = 'scm:git:https://github.com/stormeye2000/mock-emitter.git'
+					developerConnection = 'git@github.com:stormeye2000/mock-emitter.git'
+					url = 'https://github.com/stormeye2000/mock-emitter'
 				}
 
 				issueManagement {
 					system = 'GitHub'
-					url = 'https://github.com/github/mock-emitter/issues'
+					url = 'https://github.com/stormeye2000/mock-emitter/issues'
 				}
 
 				ciManagement {
 					system = 'Github Actions'
-					url = 'https://github.com//github/mock-emitter/actions'
+					url = 'https://github.com/stormeye2000/mock-emitter/actions'
 				}
 
 				licenses {
