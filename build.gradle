@@ -61,7 +61,7 @@ publishing {
 		}
 		maven {
 			name = "GitHubPackages"
-			url = "https://maven.pkg.github.com/github/mock-emitter"
+			url = "https://maven.pkg.github.com/stormeye2000/mock-emitter"
 			credentials {
 				username = System.getenv("GITHUB_ACTOR")
 				password = System.getenv("GITHUB_TOKEN")
